@@ -110,8 +110,7 @@ npm run preview - Preview production build
 
 npm run lint - Run ESLint
 
-📄 License
-This project is open source and available under the MIT License.
+
 
 👨‍💻 Author
 Achuabhal
