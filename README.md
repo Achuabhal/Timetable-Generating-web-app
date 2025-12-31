@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+Based on your repository structure, here's a comprehensive and professional README for your Timetable Generation web application:
 
-## Project info
+📅 Timetable Generator Web Application
+A modern web application that helps teachers and educational institutions generate conflict-free timetables using Constraint Satisfaction Problem (CSP) algorithms. Built with React, TypeScript, and Vite for optimal performance and user experience.
 
-**URL**: https://lovable.dev/projects/415bb585-5ab7-4634-aa85-ed09c4a8b247
+✨ Features
+Intelligent Timetable Generation: Automatically generates multiple timetable variations using CSP algorithms
 
-## How can I edit this code?
+Constraint Management: Handles complex scheduling constraints including teacher availability, room allocation, and subject distribution
 
-There are several ways of editing your application.
+Multiple Timetable Generation: Create and compare different timetable configurations
 
-**Use Lovable**
+Export Functionality: Download generated timetables in DOCX format for easy sharing
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/415bb585-5ab7-4634-aa85-ed09c4a8b247) and start prompting.
+Modern UI: Built with shadcn/ui components and Tailwind CSS for a clean, responsive interface
 
-Changes made via Lovable will be committed automatically to this repo.
+Form Validation: Robust form handling with React Hook Form and Zod schema validation
 
-**Use your preferred IDE**
+Dark Mode Support: Toggle between light and dark themes
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🚀 Tech Stack
+Frontend Framework: React 18 with TypeScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Build Tool: Vite
 
-Follow these steps:
+Styling: Tailwind CSS with shadcn/ui components
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Routing: React Router DOM v6
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Form Handling: React Hook Form with Zod validation
 
-# Step 3: Install the necessary dependencies.
-npm i
+State Management: TanStack Query (React Query)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Icons: Lucide React
+
+Document Export: DOCX library for generating Word documents
+
+🛠️ Installation
+Prerequisites
+Node.js (v18 or higher)
+
+npm or bun package manager
+
+Setup
+Clone the repository
+
+bash
+git clone https://github.com/Achuabhal/Timetable-Generating-web-app.git
+cd Timetable-Generating-web-app
+Install dependencies
+
+bash
+npm install
+# or
+bun install
+Start the development server
+
+bash
 npm run dev
-```
+# or
+bun dev
+Open your browser and navigate to http://localhost:5173
 
-**Edit a file directly in GitHub**
+📝 Usage
+Input Configuration: Enter your institution's details including:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Number of teachers and subjects
 
-**Use GitHub Codespaces**
+Available time slots
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Room constraints
 
-## What technologies are used for this project?
+Teacher preferences
 
-This project is built with:
+Generate Timetables: Click the generate button to create optimized timetables using the CSP algorithm
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Review & Compare: View multiple generated timetables and select the best option
 
-## How can I deploy this project?
+Export: Download your finalized timetable in DOCX format
 
-Simply open [Lovable](https://lovable.dev/projects/415bb585-5ab7-4634-aa85-ed09c4a8b247) and click on Share -> Publish.
+🧮 CSP Algorithm
+The application uses Constraint Satisfaction Problem (CSP) algorithms to ensure:
 
-## Can I connect a custom domain to my Lovable project?
+No teacher is scheduled in multiple locations simultaneously
 
-Yes, you can!
+Subject distribution meets curriculum requirements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Room capacity constraints are respected
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Teacher availability preferences are honored
+
+Workload is balanced across all teachers
+
+🏗️ Project Structure
+text
+src/
+├── components/     # Reusable UI components
+├── pages/          # Application pages
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions and helpers
+├── types/          # TypeScript type definitions
+└── App.tsx         # Main application component
+🔧 Available Scripts
+npm run dev - Start development server
+
+npm run build - Build for production
+
+npm run build:dev - Build in development mode
+
+npm run preview - Preview production build
+
+npm run lint - Run ESLint
+
+📄 License
+This project is open source and available under the MIT License.
+
+👨‍💻 Author
+Achuabhal
+
+GitHub: @Achuabhal
+
+🙏 Acknowledgments
+Built with shadcn/ui components
+
+Powered by Vite for lightning-fast development
+
+UI components from Radix UI
+
+
+
