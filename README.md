@@ -1,4 +1,3 @@
-Based on your repository structure, here's a comprehensive and professional README for your Timetable Generation web application:
 
 📅 Timetable Generator Web Application
 A modern web application that helps teachers and educational institutions generate conflict-free timetables using Constraint Satisfaction Problem (CSP) algorithms. Built with React, TypeScript, and Vite for optimal performance and user experience.
